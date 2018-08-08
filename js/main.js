@@ -3,3 +3,7 @@ $(document).ready(function () {
         indicators: false
     });
 });
+
+$(document).ready(function () {
+    $('.sidenav').sidenav();
+});

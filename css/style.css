@@ -62,6 +62,10 @@ body {
     align-items: center;
 }
 
+.sidenav-trigger {
+    display: none;
+}
+
 .wellcome__section {
     display: flex;
     justify-content: space-around;
@@ -85,34 +89,151 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     height: 100%;
 }
 
 .services__section {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    text-align: center;
 }
 
 .service__section__item {
-    text-align: center;
-    margin: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .contact__section {
     display: flex;
     justify-content: space-around;
+    margin: 5%;
 }
 
 .contact__section__item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
+    text-align: center;
 }
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (min-width: 1025px) and (max-width: 1279px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .nav__contact__left {
+        display: none;
+    }
+    .nav__contact__right {
+        display: none;
+    }
+    .nav__bar {
+        display: none;
+    }
+    .sidenav {
+        text-align: center;
+    }
+    .sidenav-trigger {
+        display: inline;
+    }
+    .wellcome__section {
+        display: flex;
+        flex-direction: column;
+    }
+    .wellcome__section__item {
+        width: 80%;
+    }
+    .team__section {
+        display: flex;
+        flex-direction: column;
+    }
+    .team__section__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+    }
+    .services__section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .service__section__item {
+        width: 50%;
+    }
+    .contact__section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 5%;
+    }
+    .contact__section__item {
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .nav__contact__left {
+        display: none;
+    }
+    .nav__contact__right {
+        display: none;
+    }
+    .nav__bar {
+        display: none;
+    }
+    .sidenav {
+        text-align: center;
+    }
+    .sidenav-trigger {
+        display: inline;
+    }
+    .wellcome__section {
+        display: flex;
+        flex-direction: column;
+    }
+    .wellcome__section__item {
+        width: 80%;
+    }
+    .team__section {
+        display: flex;
+        flex-direction: column;
+    }
+    .team__section__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+    }
+    .services__section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .service__section__item {
+        width: 50%;
+    }
+    .contact__section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 5%;
+    }
+    .contact__section__item {
+        text-align: center;
+    }
 }

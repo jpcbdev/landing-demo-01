@@ -18,7 +18,7 @@
 
     <div class="nav">
 
-        <div class="nav__contact__left hide-on-med-only hide-on-small-only">
+        <div class="nav__contact__left">
             <div class="nav__contact__items">
                 <div class="nav__contact__item">
                     <i class="material-icons">call</i>
@@ -31,7 +31,7 @@
             </div>
         </div>
 
-        <div class="nav__contact__right hide-on-med-only hide-on-small-only">
+        <div class="nav__contact__right">
 
             <div class="nav__contact__items">
 
@@ -61,7 +61,7 @@
             <h4>Healthnor</h4>
         </div>
 
-        <ul class="nav__bar hide-on-med-only hide-on-small-only">
+        <ul class="nav__bar">
             <li>
                 <a href="#">HOME+</a>
             </li>
@@ -81,6 +81,35 @@
                 <a href="#">CONTACT</a>
             </li>
         </ul>
+
+        <!-- Responsive nav bar -->
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <a href="#">HOME+</a>
+            </li>
+            <li>
+                <a href="#">DEPARTAMENTS+</a>
+            </li>
+            <li>
+                <a href="#">DOCTORS+</a>
+            </li>
+            <li>
+                <a href="#">PAGES+</a>
+            </li>
+            <li>
+                <a href="#">BLOG+</a>
+            </li>
+            <li>
+                <a href="#">CONTACT</a>
+            </li>
+        </ul>
+
+        <!-- Responsive nav icon -->
+        <a href="#" data-target="slide-out" class="sidenav-trigger">
+            <i class="medium material-icons">menu</i>
+        </a>
+
+
 
     </div>
 
@@ -225,12 +254,12 @@
 
         <div class="contact__section__item">
             <i class="fas fa-phone fa-3x"></i>
-            <h5>(0) 1234 567 890, (1) 1234 567 890</h5>
+            <h6>(0) 1234 567 890, (1) 1234 567 890</h6>
         </div>
 
         <div class="contact__section__item">
             <i class="fas fa-map-marked-alt fa-3x"></i>
-            <h5>E104, Hill Street 2, watson road, Chicago,il</h5>
+            <h6>E104, Hill Street 2, watson road</h6>
         </div>
     </section>
 
@@ -240,8 +269,9 @@
 
     <!-- Scripts -->
     <script type="text/javascript " src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="js/main.js"></script>
+
 </body>
 
 </html>
